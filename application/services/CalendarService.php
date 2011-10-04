@@ -181,7 +181,7 @@ class Service_Calendar
                     $dayArr['class'] = " today";
                 }
                 if ($j == 0) { //first day of week
-                    $class .= ' first';
+                    $dayArr['class'] .= ' first';
                 } elseif ($j == 6) { //last day of week
                     $dayArr['class'] .= ' last';
                 }
